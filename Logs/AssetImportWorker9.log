@@ -1,0 +1,339 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.50f1 (c3db7f8bf9b1) revision 12835711'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16123 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Hub\editor\2022.3.50f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+D:/Unity_project/VR_HW3
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+63247
+Successfully changed project path to: D:/Unity_project/VR_HW3
+D:/Unity_project/VR_HW3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [49708]  Target information:
+
+Player connection [49708]  * "[IP] 26.181.25.47 [Port] 0 [Flags] 2 [Guid] 3348617796 [EditorId] 3348617796 [Version] 1048832 [Id] WindowsEditor(7,lenovo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [49708]  * "[IP] 172.17.192.1 [Port] 0 [Flags] 2 [Guid] 3348617796 [EditorId] 3348617796 [Version] 1048832 [Id] WindowsEditor(7,lenovo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [49708]  * "[IP] 183.173.211.123 [Port] 0 [Flags] 2 [Guid] 3348617796 [EditorId] 3348617796 [Version] 1048832 [Id] WindowsEditor(7,lenovo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [49708] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [49708] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+Refreshing native plugins compatible for Editor in 278.55 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 3.99 ms.
+Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
+[Subsystems] Discovering subsystems at path D:/Unity Hub/editor/2022.3.50f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity_project/VR_HW3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   32.0.15.6094
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'D:/Unity Hub/editor/2022.3.50f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Hub/editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Hub/editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Hub/editor/2022.3.50f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity Hub/editor/2022.3.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.087592 seconds.
+- Loaded All Assemblies, in  0.756 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.191 seconds
+Domain Reload Profiling: 932ms
+	BeginReloadAssembly (408ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (171ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (395ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (105ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (191ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (159ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.422 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.824 seconds
+Domain Reload Profiling: 2220ms
+	BeginReloadAssembly (294ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (988ms)
+		LoadAssemblies (1030ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (148ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (825ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (704ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (510ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 34.86 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.29 ms.
+Unloading 4999 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (137.8 KB). Loaded Objects now: 5469.
+Memory consumption went from 186.9 MB to 186.8 MB.
+Total: 3.998800 ms (FindLiveObjects: 0.284300 ms CreateObjectMapping: 0.104400 ms MarkObjects: 3.458700 ms  DeleteObjects: 0.150600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/WitIntent.cs: b16c53bcdd4b02694d33f5fcb8acdf19 -> 
+  custom:scripting/monoscript/fileName/GrabPointsPoseFinder.cs: 2ce4e7dd89758cfe15cc84bbdaa5d275 -> 
+  custom:scripting/monoscript/fileName/CylinderProximityFieldEditor.cs: 3e379a0d9898211fdf7bd80a30343891 -> 
+  custom:scripting/monoscript/fileName/CanvasMeshPointable.cs: c479bafc80e05db87d89b0e734294af3 -> 
+  custom:scripting/monoscript/fileName/CylinderEditor.cs: b3e556284986a11c8d6bd82a7d7bef7e -> 
+  custom:scripting/monoscript/fileName/GrabPoint.cs: a19e23b452c1156c6e2d489a5b9f5977 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/OneHandRotateTransformer.cs: b4ad4fec7dbc0022b27ef2f1444e1086 -> 
+  custom:scripting/monoscript/fileName/WitTraitValue.cs: c4fc68c99e4126ea4ce1abd10ab830cf -> 
+  custom:scripting/monoscript/fileName/IMonoBehaviourFilter.cs: 9cedc3648a1ac103150b8378e75e48c4 -> 
+  custom:scripting/monoscript/fileName/BezierSurfaceEditor.cs: 3bfdf637db9318a14fc832066acdc19a -> 
+  custom:scripting/monoscript/fileName/SnapSurfaceHelper.cs: 7310cd667c1f6f32da3156d4956a11cb -> 
+  custom:scripting/monoscript/fileName/InputDataProviderUpdateTriggerOVR.cs: c642c70bc2d53e104962e39be79e0283 -> 
+  custom:scripting/monoscript/fileName/ITween.cs: d765ab2d93516afd5cff5e65cdb523ff -> 
+  custom:scripting/monoscript/fileName/DropZoneInteractable.cs: da4c91e5f510c5633065c5ee349670e0 -> 
+  custom:scripting/monoscript/fileName/InteractorGroup.cs: 075c37967371ab7213a5d5cca24ff1fc -> 60fe7361e8ecd7ffeba4477da21c55fe
+  custom:scripting/monoscript/fileName/WitHttp.cs: 65528eef0357ac8698cea4e277f16a7c -> 
+  custom:scripting/monoscript/fileName/BoxProximityField.cs: 8381476084cb2eebc09f6205ab260a5f -> 
+  custom:scripting/monoscript/fileName/ProcessStep.cs: c70de6d5eef34fc1abe9451b4eb02d17 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/WitTrainingUtterance.cs: a06d2df3896850626c28c2eee2f3361f -> 
+  custom:scripting/monoscript/fileName/IInteractorComparer.cs: 134007cf487fdfbaee924b7d31a3e8ab -> 
+  custom:scripting/monoscript/fileName/ITeleportArc.cs: 1ea6eacef0fbe7453ebeaaedd85bf98c -> 
+  custom:scripting/monoscript/fileName/CylinderSurface.cs: 06b7f3fe576c2b562f08ad1445def42f -> 5bee5d43e279f1a3b524f87759982fd3
+  custom:scripting/monoscript/fileName/TagMonoBehaviourFilter.cs: 899569d8afa40a8d293811b71b3f0a56 -> 
+  custom:scripting/monoscript/fileName/SphereSurface.cs: 6d8b2477044e484ea8579f6f1f45e3a8 -> 
+  custom:scripting/monoscript/fileName/LastKnownGoodDataModifier.cs: 0b2c17c40fb2875f055e57a3080d7c9d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/WitEntityRole.cs: 8b2af296196ddab171c9825f773f77da -> 
+  custom:scripting/monoscript/fileName/PointableCylinder.cs: 9a62d083874bdd860515054a450ac594 -> 
+  custom:scripting/monoscript/fileName/AudioEncoding.cs: f84b3952f084caac261984fbd264acec -> 7f68c8ddbd6875f735f3280c1aa36e92
+  custom:scripting/monoscript/fileName/InteractorDriver.cs: 285df5cb75aa79644c75f1cfa1d96ee4 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ISnapPoseProvider.cs: 3ec1f733df4df3213c9abc4abfa84cf1 -> 
+  custom:scripting/monoscript/fileName/IDropZoneSlotsProvider.cs: fc82a4709de8cea85e0be7e46ba6942f -> 
+  custom:scripting/monoscript/fileName/IAudioInputSource.cs: 9cedc902c969604d8ecab3d4c3d431d7 -> 938d3583ac997fe47e013c96006b1b9d
+  custom:scripting/monoscript/fileName/BoxProximityFieldEditor.cs: 3ca172dc25f45b576b1261d9f0fc6a13 -> 
+  custom:scripting/monoscript/fileName/ArcRangeModifier.cs: df4e86005874fa14c26dde0e58fe01b3 -> 
+  custom:scripting/monoscript/fileName/TrainUtterances.cs: fad5269aa3542e54bceac07b82fa9fb2 -> 
+  custom:scripting/monoscript/fileName/OVRSkeletonDataProviders.cs: c9301a8aea506ae86c85f3531883f294 -> 
+  custom:scripting/monoscript/fileName/BoxEditor.cs: 6cb10ba4aeba036613100827e384c6dd -> 
+  custom:scripting/monoscript/fileName/BoxSurface.cs: 64c4f1d5c8f509e2ebfbbe8cc0454ae3 -> 
+  custom:scripting/monoscript/fileName/HandPoseRecordable.cs: be9aebb9e35f1a89cf251d5ebe16b65e -> 
+  custom:scripting/monoscript/fileName/TwoHandFreeTransformer.cs: 5484f45a8b713e7524e309309f536d2e -> 
+  custom:scripting/monoscript/fileName/InteractorDriverGroup.cs: 25a18cbb0a76e7a8f37930efac2dc5e3 -> 
+  custom:scripting/monoscript/fileName/InteractableTransformableConnection.cs: aa199f160bbadaf2d2b7430adb4b19a9 -> 
+  custom:scripting/monoscript/fileName/JointLocking.cs: 04ef49fdef9b40429c44bd8bb4f83933 -> 
+  custom:scripting/monoscript/fileName/OneHandTranslateTransformer.cs: e5593db0756115f769defd5b1bc42e7e -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/WitResponse.cs: 85febed2f7a25f57ec48693bd452c142 -> 
+  custom:scripting/monoscript/fileName/OneEuroFilterRotationHand.cs: b7c0c166a2ca9babc479709621d65436 -> 
+  custom:scripting/monoscript/fileName/TagInteractableFilter.cs: 6c02bfd80ff65fe2d5965298b17e0457 -> 
+  custom:scripting/monoscript/fileName/PointableCylinderEditor.cs: 6340733d6723a340786b526e9320784f -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PointProximityField.cs: 0f95fb408e97956db7a3762247f8adc0 -> 
+  custom:scripting/monoscript/fileName/SnapAddress.cs: c2a235d307f5033a6468630481616552 -> 
+  custom:scripting/monoscript/fileName/InteractorGroupMulti.cs: 6bc778766dfc2f0ec0ad2013ae6c3d21 -> 
+  custom:scripting/monoscript/fileName/MicBase.cs: 1ee5e56060961d5fcfcdfe4529504890 -> 47b01f48927768722a8422b4ac545006
+  custom:scripting/monoscript/fileName/DropZoneSequentialSlotsProvider.cs: 7cdedd3fff635f926ee01eb94826964d -> 
+  custom:scripting/monoscript/fileName/SnapPoint.cs: 75b9e5a0f94c20895cbed2ad0cae1535 -> 
+  custom:scripting/monoscript/fileName/WitTrait.cs: 3139215512626b390a96d2cb63ff9eda -> 
+  custom:scripting/monoscript/fileName/ITransformable.cs: 215a3f4eeb91cb88c54863506271ef62 -> 
+  custom:scripting/monoscript/fileName/CoroutineUtility.cs: fab89599511ae356a01c13a28fda4240 -> 821d19c5ac6a7e6baf82a95f7b4d30bf
+  custom:scripting/monoscript/fileName/TeleportTurningGate.cs: 575c2ab79bdb37717f3efb10cff4d8ea -> 
+  custom:scripting/monoscript/fileName/InputDataProviderUpdateTriggerOVREditor.cs: 296ebd2207288873d91d6a862e3b5272 -> 
+  custom:scripting/monoscript/fileName/ColliderSurface.cs: b1cd8447e0ce952dcc7d7b666e8fca92 -> fc86642c94a9542e787a844561e4e4f2
+  custom:scripting/monoscript/fileName/IInteractableRegistry.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/OneEuroFilterPositionHand.cs: 39d5de62c6b9f655efb66d407ad08fff -> 
+  custom:scripting/monoscript/fileName/TTSStreamToggle.cs: 386098d9b6e67cd0a4ee56f3a7972a48 -> 0132d2e4cd28c22eddc3810c7daa80a8
+  custom:scripting/monoscript/fileName/HandGrabInteractorVisual.cs: 4e78a3e45d86e390b096cc34598495d6 -> 
+  custom:scripting/monoscript/fileName/WitRole.cs: d05ae217608bc7de182f2476f0c8e04d -> 
+  custom:scripting/monoscript/fileName/WitIncomingEntity.cs: 78d455e2834b5f65d08838e068a6b637 -> 
+  custom:scripting/monoscript/fileName/CylinderProximityField.cs: d46f096ca0f256553da6db049bd8e1f0 -> 
+  custom:scripting/monoscript/fileName/OneEuroFilterRotationDataModifier.cs: bbc3acc82de59e5fbec702d8f8197eed -> 
+  custom:scripting/monoscript/fileName/WitEntity.cs: f3634f6b005d657d9256924b6ee7724f -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/Payload.cs: 20bf3ab20e64bae704c38145b44c13ac -> 
+  custom:scripting/monoscript/fileName/EnsureWitIntentsStep.cs: b136f8e7ef96058daebe6e4670855769 -> 
+  custom:scripting/monoscript/fileName/HandGrabPointEditor.cs: 1de61d722aec3955a0ced3ddd1649237 -> 
+  custom:scripting/monoscript/fileName/AimingStabilizedOrigin.cs: 8e9de4ec8ed1eca16b6b5ccdd53afdc0 -> 
+  custom:scripting/monoscript/fileName/WitConfigurationData.cs: 1b59f7289bf740e9ef9f2be93d10f3d4 -> 
+  custom:scripting/monoscript/fileName/VoiceUnityRequest.cs: e67404959cad22b5a8fdd8bc15940a60 -> 
+  custom:scripting/monoscript/fileName/SyncWitEntitiesStep.cs: 2ad573a8b9afd7f1740d493d07a4c0da -> 
+  custom:scripting/monoscript/fileName/PointableDelegate.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/PointablePlane.cs: 0c63873222e6ee1c4bb906924cab90d1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SphereEditor.cs: 276cafd8aae7e32d736a0c4daa10ab21 -> 
+  custom:scripting/monoscript/fileName/CircleProximityField.cs: 3470d85e5a68b53f46ca8356f6863551 -> 
+  custom:scripting/monoscript/fileName/Transformable.cs: 5a246a64658742dc20c886d79003f704 -> 
+  custom:scripting/monoscript/fileName/InteractionOVRCameraRig.cs: 19e5e98fb10016c5e6956c7b291d0f17 -> 
+  custom:scripting/monoscript/fileName/ObtainIdmData.cs: 93689dcf59e4155113dc068b963c769d -> 
+  custom:scripting/monoscript/fileName/HandGrabPoint.cs: f8f9a4aeaae4341c0efe8cc3e2aa5fd8 -> 
+  custom:scripting/monoscript/fileName/PointableGroup.cs: aea7bf2c731b6179d62dad93c7f1a961 -> 
+  custom:scripting/monoscript/fileName/TransformableUnityEventWrapper.cs: aa0309b765937680c8aa9e4e094215f7 -> 
+  custom:scripting/monoscript/fileName/MicDebug.cs: 0703043cca43f55a99276c84b88d73fb -> 75d2f3a208b34ca2e9e43f6d5775eb91
+  custom:scripting/monoscript/fileName/OneHandPhysicsJointTransformer.cs: e946e3b4b5cd8cde3f541291179028e9 -> 
+  custom:scripting/monoscript/fileName/WitApplication.cs: 19806fe5aebcf74124ed49d589a7e43e -> 
+  custom:scripting/monoscript/fileName/IInteractorDriver.cs: fc0a89f4490fc0584b64c6fc827ee895 -> 
+  custom:scripting/monoscript/fileName/GrabbableUnityEventWrapper.cs: 33df70b122ad7f22db2cbfaa0b81510a -> 
+  custom:scripting/monoscript/fileName/BezierSurface.cs: da0b185221f59d400e85940f5ce71c91 -> 
+  custom:scripting/monoscript/fileName/InteractorComparer.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/HandPoseRecorder.cs: d6ebfdaa7663426067642c12a6222914 -> 
+  custom:scripting/monoscript/fileName/CanvasRenderTextureMesh.cs: ba9623d0f846f302f4c58ca374ea8422 -> 
+  custom:scripting/monoscript/fileName/IProximityField.cs: 1b8f3ef3bb8397988a6923ea34f554a3 -> 
+  custom:scripting/monoscript/fileName/HandGrabInteractionUtilities.cs: 5e1b87f0c932124d19544f2653fcf382 -> 
+  custom:scripting/monoscript/fileName/OneHandFreeTransformer.cs: 80b454bb7a7e54382c3e5a83c645a9b0 -> 
+  custom:scripting/monoscript/fileName/TwoHandPlaneTransformer.cs: 82508aadcccc9aaae16a3d02dab1f1dd -> 
+  custom:scripting/monoscript/fileName/IWitHttp.cs: 91506f2edcd3bae61fa15b5c8c35b6d5 -> 
+  custom:scripting/monoscript/fileName/JointRotationHistoryModifier.cs: b84eeaa16ce785ca3e0b5335f31473cc -> 
+  custom:scripting/monoscript/fileName/TTSWitVoiceData.cs: 879b5b5a667decd113f2ef27fec58193 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/FingerGrabAPI.cs: f38129e37b49d6e3a171bd504092712b -> 
+  custom:scripting/monoscript/fileName/DummyDataModifier.cs: ebbb5589f565d8685d37bb183b4c3ff4 -> 
+  custom:scripting/monoscript/fileName/IDistanceInteractable.cs: c2d2949b74e1e24067c043dc8ee82c5a -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SyntheticHandModifier.cs: 873320c031209152e80a3521b7c6e3f2 -> 
+  custom:scripting/monoscript/fileName/ISnapSurface.cs: e613c1039942a8c6f8524e6d36ccbc1b -> 
+  custom:scripting/monoscript/fileName/HandGrab.cs: 50288240abd576346d83074011541b5b -> 
+  custom:scripting/monoscript/fileName/TTSSpeakerInput.cs: 827d47b543f4663c13881e200e539afd -> 9224de466064073281bc72c5b8b2748c
+  custom:scripting/monoscript/fileName/OneEuroFilterPositionDataModifier.cs: da29522a4b6eb1cb5f6511bdbdd27a95 -> 
+  custom:scripting/monoscript/fileName/WitTrainingEntity.cs: f6d2096c03af45821ae473c66af255f2 -> 
+  custom:scripting/monoscript/fileName/WitEntityKeyword.cs: b5b67313fa30a40635477940a31ddbde -> 
+  custom:scripting/monoscript/fileName/PointableGrabbableConnection.cs: 35ac7dedcc44186f6f6c7bf3730e6343 -> 
+  custom:scripting/monoscript/fileName/FixedScaleDataModifier.cs: 89e1be89d924ac28373337b3361e61dd -> 
+  custom:scripting/monoscript/fileName/PointablePlaneEditor.cs: 37a91ecc3d62d378d68629c686a51361 -> 
+  custom:scripting/monoscript/fileName/WitTrainer.cs: 5fb3c95ba24e9cf857cd9b4cee94291b -> 
+  custom:scripting/monoscript/fileName/IInteractableFilter.cs: 81259a32cb7c13def6a0b70f08c66048 -> 
+  custom:scripting/monoscript/fileName/TTSStatusLabel.cs: 17147acb333fe55f1217dee5b341ea9e -> 
+  custom:scripting/monoscript/fileName/DropZoneInteractor.cs: 76b4b17e6eac72d8f5a16e87fd0e63b5 -> 
+  custom:scripting/monoscript/fileName/IAspectProvider.cs: 9859c5919d893814fee2cdd590f4f949 -> 
+  custom:scripting/monoscript/fileName/OnConduitFailedParameterResolutionAttribute.cs: 60901a81960a7c5a81c752381f8034ab -> 
+  custom:scripting/monoscript/fileName/Mic.cs: 525051591b471bdbfa16530d37dcb655 -> 5fc48121bdfa6f25d9345006a81f8860
+  custom:scripting/monoscript/fileName/TTSCacheToggle.cs: fef530a103c6b74722a7b6f18941e54c -> 410df47b336bde136543845320d773f8
+  custom:scripting/monoscript/fileName/MicPermissionsManager.cs: 81a336319435a61331b696a347e78b9e -> f25de0368c3638f9a3bd7e7f63f0755a
+  custom:scripting/monoscript/fileName/StepRunner.cs: 6ab640738f608e4b47206553c39b2c58 -> 
+  custom:scripting/monoscript/fileName/WitUnityRequest.cs: 2bd88b304dddeb742392b5d5568e7bf7 -> 156bc76d85c310a98e115eec74a771cd
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CircleProximityFieldEditor.cs: 55b157de94575afe7fdac58cd51e3b1c -> 
+  custom:scripting/monoscript/fileName/TTSErrorText.cs: f03cdbc7b1d745067e8f357414e703b1 -> 21a4d51c9f7822c5dae2e2c7e2605044
+  custom:scripting/monoscript/fileName/FingerPinchAPI.cs: 478ca37299a2b7ce3d309683ce89043a -> 
+  custom:scripting/monoscript/fileName/IPointableSurface.cs: d7a8e441db2730be64c585bb12bf4db1 -> 
+  custom:scripting/monoscript/fileName/PhysicsTransformable.cs: 5811faf37734ce7ec9b28418c4758de1 -> 
+  custom:scripting/monoscript/fileName/PitchRemap.cs: 5b7277eeb0a8effc4822cb897b70f197 -> 
+  custom:scripting/monoscript/fileName/WitOutgoingEntity.cs: c7126ba0b7fa09ef7a925f4dc186e5b7 -> 
+  custom:scripting/monoscript/fileName/LocomotionGateVisual.cs: e25bbb39051f52b97c3e93bb37ab390d -> 
+  custom:scripting/monoscript/fileName/TTSWitVoiceUtility.cs: eee5b9af7f1fc7fc0da148c8bdf0ad4f -> 
+  custom:scripting/monoscript/fileName/HandleEntityResolutionFailureAttribute.cs: c6e2d1dd1bcaba0322547519e0e12ac7 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 287738.669022 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Textures/OCUI_24_Filled_2x.png
+  artifactKey: Guid(7f186a9ac091755489927d745be0185a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Textures/OCUI_24_Filled_2x.png using Guid(7f186a9ac091755489927d745be0185a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a0103c2c5e0c55eeb2863a2eded28076') in 0.942346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 371
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
