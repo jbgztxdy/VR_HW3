@@ -32,20 +32,19 @@ public class KeyButton : MonoBehaviour, IPointerClickHandler
         normalColor = _normalColor;
         pressedColor = _pressedColor;
 
-        // 获取Image组件（用于控制颜色）
         keyImage = GetComponent<Image>();
         if (keyImage == null)
-            keyImage = gameObject.AddComponent<Image>(); // 确保有Image组件
+            keyImage = gameObject.AddComponent<Image>();
 
         // 记录初始位置和按下位置（Z轴正向移动）
         originalPos = transform.localPosition;
         pressedPos = originalPos + Vector3.forward * pressDistance;
 
-        // 初始状态（松开）
+        // 初始状态
         SetState(false);
     }
 
-    // 切换状态（核心逻辑）
+    // 切换状态
     public void ToggleState()
     {
         isPressed = !isPressed;
@@ -53,18 +52,16 @@ public class KeyButton : MonoBehaviour, IPointerClickHandler
         manager.UpdatePressedCount(isPressed);
     }
 
-    // 设置状态（位置+颜色）
+    // 设置状态
     private void SetState(bool pressed)
     {
         // 停止当前移动协程（防止冲突）
         if (moveCoroutine != null)
             StopCoroutine(moveCoroutine);
 
-        // 移动到目标位置
         Vector3 targetPos = pressed ? pressedPos : originalPos;
         moveCoroutine = StartCoroutine(MoveTo(targetPos));
 
-        // 立即更新颜色（无过渡，瞬间切换）
         keyImage.color = pressed ? pressedColor : normalColor;
     }
 
@@ -78,19 +75,18 @@ public class KeyButton : MonoBehaviour, IPointerClickHandler
                 target,
                 moveSpeed * Time.deltaTime
             );
-            yield return null; // 等待下一帧
+            yield return null;
         }
-        // 确保精确到达目标位置
         transform.localPosition = target;
     }
 
-    // 处理鼠标点击（PC测试用）
+    // 处理鼠标点击
     public void OnPointerClick(PointerEventData eventData)
     {
         ToggleState();
     }
 
-    // VR交互接口（供射线检测调用）
+    // VR交互接口
     public void OnRaycastTrigger()
     {
         ToggleState();
